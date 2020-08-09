@@ -1,0 +1,11 @@
+package idat.edu.pe.cautela.repositorios;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import idat.edu.pe.cautela.modelo.Carrito;
+
+@Repository
+public interface CarritoRepositorio extends CrudRepository<Carrito, Integer> {
+
+}
